@@ -39,7 +39,6 @@ const Login = () => {
               type="email"
               name="email"
               className={css.formInput}
-              pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
               title="Enter a valid email address."
               required
             />
@@ -50,8 +49,6 @@ const Login = () => {
               type="password"
               name="password"
               className={css.formInput}
-              pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
-              title="The password should contain at least 8 characters, including at least one lowercase letter, one uppercase letter and one number."
               required
             />
           </label>

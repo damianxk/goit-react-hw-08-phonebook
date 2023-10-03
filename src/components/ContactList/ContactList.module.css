@@ -9,6 +9,7 @@
 }
 
 .contactItem {
+  width: 100%;
   padding: 20px;
   border: 1px solid #5c94c0;
   border-radius: 4px;
@@ -36,4 +37,10 @@
 
 .formBtn:hover {
   transform: scale(1.05);
+}
+
+@media (min-width: 468px) {
+  .contactItem {
+    width: auto;
+  }
 }

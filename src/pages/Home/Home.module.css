@@ -27,6 +27,7 @@ p {
   background-color: #5c94c0;
   cursor: pointer;
   transition: 0.5s;
+  margin-bottom: 90px;
 }
 
 .homeBox button:hover {

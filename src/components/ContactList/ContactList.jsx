@@ -31,14 +31,14 @@ export const ContactList = () => {
               <button
                 onClick={() => handleEdit(id, name, number)}
                 type="button"
-                className={css.formBtn}
+                className={css.formButton}
               >
                 Edit
               </button>
               <button
                 onClick={() => handleDelete(id)}
                 type="button"
-                className={css.formBtn}
+                className={css.formButton}
               >
                 Remove
               </button>

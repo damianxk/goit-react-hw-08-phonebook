@@ -33,18 +33,14 @@ const Contacts = () => {
         <h2 className={css.header}>Contacts</h2>
         <div className={css.contactsBox}>
           <ContactForm />
-          {contacts <= 0 ? (
-            <p className={css.info}>Add your first contact!</p>
-          ) : (
-            <Filter />
-          )}
+          {contacts <= 0 ? <p>Add your first contact!</p> : <Filter />}
           {isLoading && (
-            <div className={css.centred}>
+            <div>
               <Blocks />
             </div>
           )}
           {error && (
-            <div className={css.centred}>
+            <div>
               <b>{error}</b>
             </div>
           )}

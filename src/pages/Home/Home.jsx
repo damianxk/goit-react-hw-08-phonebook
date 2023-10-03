@@ -33,7 +33,7 @@ const Home = () => {
           </>
         )}
         {isLoggedIn ? null : (
-          <p className={css.logOrReg}>
+          <p>
             <Link to="/login" className={css.link}>
               Login
             </Link>{' '}

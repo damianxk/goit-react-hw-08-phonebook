@@ -39,7 +39,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <div className={css.modalContainer}>
+    <div>
       <form onSubmit={handleSubmit} className={css.contactForm}>
         <label className={css.formLabel}>
           Name

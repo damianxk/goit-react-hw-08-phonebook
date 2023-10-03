@@ -25,7 +25,7 @@
   gap: 10px;
 }
 
-.formBtn {
+.formButton {
   padding: 2px;
   background-color: #5c94c0;
   color: white;
@@ -35,7 +35,7 @@
   transition: 0.5s;
 }
 
-.formBtn:hover {
+.formButton:hover {
   transform: scale(1.05);
 }
 

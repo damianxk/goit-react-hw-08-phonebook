@@ -55,9 +55,9 @@ const Login = () => {
           <button type="submit" className={css.formButton}>
             Login
           </button>
-          <p className={css.haveAccountInfo}>
+          <p>
             Don't have an account?{' '}
-            <Link to="/register" className={css.regLink}>
+            <Link to="/register" className={css.link}>
               Register
             </Link>{' '}
             now!

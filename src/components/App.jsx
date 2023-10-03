@@ -8,7 +8,6 @@ import { useAuth } from 'hooks';
 import { RestrictedRoute } from '../RestrictedRoute';
 import { PrivateRoute } from '../PrivateRoute';
 import { lazy } from 'react';
-import css from './App.module.css';
 
 const Home = lazy(() => import('../pages/Home/Home'));
 const Register = lazy(() => import('../pages/Register/Register'));
@@ -24,8 +23,8 @@ export const App = () => {
   }, [dispatch]);
 
   return isRefreshing ? (
-    <div className={css.centeredContainer}>
-      <Blocks wrapperClass={css.centeredContainer} />
+    <div>
+      <Blocks />
     </div>
   ) : (
     <Routes>

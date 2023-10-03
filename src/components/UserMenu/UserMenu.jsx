@@ -9,7 +9,7 @@ export const UserMenu = () => {
 
   return (
     <div className={css.menuBox}>
-      <p className={css.helloUser}>Hello, {user.email}!</p>
+      <p>Hello, {user.email}!</p>
       <button
         className={css.logout}
         type="button"

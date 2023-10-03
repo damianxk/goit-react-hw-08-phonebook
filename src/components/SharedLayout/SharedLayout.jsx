@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
-import { Blocks } from 'react-loader-spinner';
+import { Hourglass } from 'react-loader-spinner';
 import { useAuth } from 'hooks';
 import { Navigation } from 'components/Navigation';
 import { AuthNav } from 'components/AuthNav';
@@ -27,11 +27,11 @@ export const SharedLayout = () => {
         </div>
       </header>
       <main>
-        <div className={css.container}>
+        <div>
           <Suspense
             fallback={
-              <div className={css.centeredContainer}>
-                <Blocks wrapperClass={css.centeredContainer} />
+              <div className={css.big}>
+                <Hourglass wrapperClass={css.center} />
               </div>
             }
           >

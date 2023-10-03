@@ -1,0 +1,11 @@
+.link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.loggedIn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

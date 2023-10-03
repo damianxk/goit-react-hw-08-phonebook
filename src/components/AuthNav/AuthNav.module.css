@@ -1,0 +1,12 @@
+.authNav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}

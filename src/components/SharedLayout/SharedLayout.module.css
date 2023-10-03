@@ -1,0 +1,53 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.footer {
+  width: 100%;
+  background-color: #5c94c0;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.5s;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+.header {
+  width: 100%;
+  background-color: #5c94c0;
+  padding: 20px;
+}
+
+.headerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}

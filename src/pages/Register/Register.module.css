@@ -1,0 +1,45 @@
+.registerForm {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 70px;
+}
+
+.registerForm input {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.formLabel {
+  text-transform: uppercase;
+}
+
+.formButton {
+  padding: 20px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-color: #5c94c0;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.formButton:hover {
+  transform: scale(1.02);
+  opacity: 1;
+}
+
+.registerForm input:focus {
+  transform: scale(1.02);
+  outline: #5c94c0;
+}
+
+.logLink {
+  color: #5c94c0;
+}

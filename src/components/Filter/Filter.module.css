@@ -1,0 +1,21 @@
+.filterLabel {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter {
+  padding: 30px 0;
+}
+
+.filterInput {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.filterInput:focus {
+  transform: scale(1.02);
+  outline: #5c94c0;
+}

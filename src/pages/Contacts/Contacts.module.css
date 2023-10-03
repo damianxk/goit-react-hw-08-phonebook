@@ -1,0 +1,15 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px;
+}
+
+.contactsBox {
+  margin: 0 auto;
+  display: block;
+}

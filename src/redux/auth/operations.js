@@ -24,6 +24,7 @@ export const register = createAsyncThunk(
       setAuthHeader(response.data.token);
       return response.data;
     } catch (error) {
+      Notify.failure('Account is already registered, please log in.');
       return thunkAPI.rejectWithValue(error.message);
     }
   }

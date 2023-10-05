@@ -44,6 +44,8 @@ const Register = () => {
           <input
             type="password"
             name="password"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"
+            title="The password should contain at least 8 characters, including at least one lowercase letter, one uppercase letter and one number."
             className={css.formInput}
             required
           />
